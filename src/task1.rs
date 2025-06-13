@@ -13,7 +13,7 @@ pub fn task1_helper(cipher: &str) {
     }
 }
 
-pub fn taks1_solve(cypher: String) -> () {
+pub fn task1_solve(cypher: String) -> () {
     let shift  = 25;
     let deciphered: String = cypher
         .bytes()
